@@ -50,7 +50,7 @@
 <details>
   <summary>Step three</summary>
   
-  <br> You should see a randomly generated decimal value, converting this value into binary will provide the required flag. There are many websites able to convert       decimal to binary, e.g. https://www.rapidtables.com/convert/number/decimal-to-binary.html
+  <br> You should see a randomly generated decimal value, converting this value into binary will provide the required flag. There are many websites available for converting decimal to binary, e.g. https://www.rapidtables.com/convert/number/decimal-to-binary.html
   
   ![convertme output](https://miro.medium.com/max/720/1*EVS3VMu9wXUuJNHZaFNzCg.png)
 </details>
@@ -125,3 +125,7 @@
   ![fixme2 fix](https://miro.medium.com/max/720/1*czlwQZxsUc_je4-0yaPCTQ.png)
   <br> With the python file opened, navigate to `line 22` and fix the incorrect Syntax. The conditional operator `if` in Python requires two equal signs instead of one. Exit `nano` by pressing CTRL and X, making sure to save your changes. Running `fixme2.py` again will now correctly print the required flag
 </details>
+
+```
+print("hello")
+```
