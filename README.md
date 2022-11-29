@@ -2,8 +2,7 @@
 
 ### Codebook
 <details>
-  
-  <summary>Step one</summary>
+  <summary> Step one </summary>
   
   <br> Start by downloading the required files using the Webshell
   
@@ -12,7 +11,6 @@
   
   wget https://artifacts.picoctf.net/c/102/codebook.txt
   ```
-  
 </details>
 
 <details>
