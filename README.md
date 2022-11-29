@@ -1,8 +1,10 @@
 # picoCTF - picoGYM walkthrough: Beginner picoMini 2022
 
 ### Codebook
+{::options parse_block_html="true" /}
+
 <details>
-  <summary> Step one </summary>
+  <summary markdown="span"> Step one </summary>
   
   <br> Start by downloading the required files using the Webshell
   
@@ -12,6 +14,8 @@
   wget https://artifacts.picoctf.net/c/102/codebook.txt
   ```
 </details>
+
+{::options parse_block_html="false" /}
 
 <details>
   <summary>Step two</summary>
