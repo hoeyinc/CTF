@@ -1,6 +1,8 @@
 # picoCTF - picoGYM walkthrough: Beginner picoMini 2022
 
 ### Codebook
+{::options parse_block_html="true" /}
+
 <details>
   <summary markdown="span"> Step one </summary>
   
@@ -12,6 +14,8 @@
   wget https://artifacts.picoctf.net/c/102/codebook.txt
   ```
 </details>
+
+{::options parse_block_html="false" /}
 
 <details>
   <summary>Step two</summary>
@@ -126,15 +130,3 @@
   ![fixme2 fix](https://miro.medium.com/max/720/1*czlwQZxsUc_je4-0yaPCTQ.png)
   <br> With the python file opened, navigate to `line 22` and fix the incorrect Syntax. The conditional operator `if` in Python requires two equal signs instead of one. Exit `nano` by pressing CTRL and X, making sure to save your changes. Running `fixme2.py` again will now correctly print the required flag
 </details>
-
-{::options parse_block_html="true" /}
-
-<details><summary markdown="span">Let's see some code!</summary>
-```python
-print('Hello World!')
-```
-Of course, it has to be Hello World, right?
-</details>
-<br/>
-
-{::options parse_block_html="false" /}
