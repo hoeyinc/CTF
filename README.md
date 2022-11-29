@@ -83,7 +83,7 @@
   <summary markdown="span">Step three</summary>
   
   ![fixme1 error](https://miro.medium.com/max/720/1*USSa0Wo15jwnRS7OQmKyKQ.png)
-  <br> You should encounter a `IndentationError` on `line 20`, to begin fixing this issue you will need to open the python file for edit
+  <br> You should encounter a `IndentationError` on **line 20**, to begin fixing this issue you will need to open the python file for edit
   ```console
   nano fixme1.py
   ```
@@ -92,7 +92,7 @@
 <details>
   <summary markdown="span">Step four</summary>
   
-  <br> With the python file opened, navigate to `line 20` and remove the erroneous indents. Exit `nano` by pressing CTRL and X, making sure to save your changes. Running `fixme1.py` again will now correctly print the required flag
+  <br> With the python file opened, navigate to **line 20** and remove the erroneous indents. Exit `nano` by pressing CTRL and X, making sure to save your changes. Running `fixme1.py` again will now correctly print the required flag
 </details>
 
 ### fixme2.py
@@ -118,7 +118,7 @@
   <summary markdown="span">Step three</summary>
   
   ![fixme1 error](https://miro.medium.com/max/720/1*mlYHpWOlsbMF6f5OqZf2Bw.png)
-  <br> You should encounter a `SyntaxError` on `line 22`, to begin fixing this issue you will need to open the python file for edit
+  <br> You should encounter a `SyntaxError` on **line 22**, to begin fixing this issue you will need to open the python file for edit
   ```console
   nano fixme2.py
   ```
@@ -128,7 +128,7 @@
   <summary markdown="span">Step four</summary>
   
   ![fixme2 fix](https://miro.medium.com/max/720/1*czlwQZxsUc_je4-0yaPCTQ.png)
-  <br> With the python file opened, navigate to `line 22` and fix the incorrect Syntax. The conditional operator `if` in Python requires two equal signs instead of one. Exit `nano` by pressing CTRL and X, making sure to save your changes. Running `fixme2.py` again will now correctly print the required flag
+  <br> With the python file opened, navigate to **line 22** and fix the incorrect Syntax. The conditional operator `if` in Python requires two equal signs instead of one. Exit `nano` by pressing CTRL and X, making sure to save your changes. Running `fixme2.py` again will now correctly print the required flag
 </details>
 
 ### Glitch Cat.py
