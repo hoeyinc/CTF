@@ -5,11 +5,13 @@
   <summary>Step one</summary>
   
   <br> Start by downloading the required files using the Webshell
+  
   ```console
   wget https://artifacts.picoctf.net/c/102/code.py
   
   wget https://artifacts.picoctf.net/c/102/codebook.txt
   ```
+  
 </details>
 
 <details>
