@@ -150,16 +150,13 @@ You should see a randomly generated decimal value, converting this value into bi
   ```
 2. Like the challenge mentions, the service is broken. The printed flag contains ASCII characters, which are those `chr(0xXX)` values where XX is a integer number.
   To retrieve the correct format flag, we must convert these ASCII characters
-  ![glitchcat ascii](https://miro.medium.com/max/720/1*ftMjXhhyhnn0BNtUfv56nw.png)
 3. The ASCII characters can be directly converted inside the Webshell using Python.
 
 <details open>
 <summary>Hint?</summary>
+  
 <br>
-
 First open up Python in the webshell by entering the command `python3`. Then you may use the `print` function with the incorrected formatted flag to acquire the valid flag
-  ![glitchcat print](https://miro.medium.com/max/720/1*td5MwTQg-KICaU28fAHBPw.png)
-
 </details>
 
 ## HashingJobApp
@@ -179,8 +176,6 @@ First open up Python in the webshell by entering the command `python3`. Then you
 <details open>
 <summary>Hint?</summary>
 <br>
-
- ![hashingjob question](https://miro.medium.com/max/720/1*6pKJRoOfINRQ7MH5ZYrQ7A.png)
   <br> To access the flag you must `md5 hash` a randomly generated string. This can be done in web apps like the following: https://www.md5hashgenerator.com, or in your command line by using the `md5sum` tool. 
   ```console
   echo -n 'string' | md5sum
