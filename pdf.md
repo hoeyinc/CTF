@@ -209,6 +209,7 @@ First open up Python in the webshell by entering the command `python3`. Then you
 
 1. Open `level1.py` in your terminal
 2. Go through the code line by line, ignoring the section that has been highlighted for you to ignore
+  
 <details open>
   
 <summary>Hint?</summary>
@@ -216,6 +217,7 @@ First open up Python in the webshell by entering the command `python3`. Then you
 <br>
   
 Notice on `line 19` that the program runs a conditional check for the user's password. Fortunately for us the password is in plain text for us to copy.
+  
 </details>
 
 3. Run `python3 level1.py level1.flag.txt.enc` and enter the correct password you have found when prompted
@@ -231,6 +233,7 @@ Notice on `line 19` that the program runs a conditional check for the user's pas
 
 1. Open `level2.py` in your terminal
 2. Go through the code line by line, ignoring the section that has been highlighted for you to ignore. Do you notice anything _different_ this time?
+  
 <details open>
   
 <summary>Hint?</summary>
@@ -256,6 +259,7 @@ Notice on `line 18` that the program runs a conditional check for the user's pas
 
 1. Open `level3.py` in your terminal
 2. Notice the list of potential passwords on `line 44`? You can try something called a brute force attack where you essentially go through the list of passwords and try them out until you stumble upon the correct one
+  
 <details open>
   
 <summary>Want to learn more?</summary>
@@ -284,6 +288,7 @@ Secondly, always use a strong password to stave off these brute force attacks.
 
 1. Open `level4.py` in your terminal. Do you notice anything _different_? We are now dealing with more passwords that we can manually handle. I don't know about you but I don't want to sit here and type out every single password. Why not let the computer do it for us?
 2. Try to edit the the program `level4.py` in your favourite terminal editor. Your aim is to figure out a way to go through the list of possible passwords.
+  
 <details open>
   
 <summary>Hint?</summary>
@@ -308,6 +313,7 @@ This time our list of passwords have gotten much longer and are now placed in a 
 
 1. Edit `level5.py` file to open the `dictionary.txt`
 2. Use a **for loop** to iterate through the potential passwords in the dictionary
+  
 <details open>
   
 <summary>Hint?</summary>
